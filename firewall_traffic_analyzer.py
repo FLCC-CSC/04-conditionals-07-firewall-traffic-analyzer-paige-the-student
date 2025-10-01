@@ -1,6 +1,6 @@
 def main():
     print("=== Network Traffic Security Analyzer ===")
-    print()
+    #print()
     
     # Step 1: Prompt the user for port number and data transfer size
     port = int(input("Enter the port number (e.g., 80, 22, 443, 3389): "))
@@ -18,7 +18,7 @@ def main():
         risk_level = "UNKNOWN: Unrecognized traffic pattern."
     
     # Step 3: Print a firewall log message
-    print("\nFIREWALL LOG:")
+    print("FIREWALL LOG:")
     print(f"Port: {port}, Transfer Size: {transfer_size} MB")
     print(f"Risk Assessment: {risk_level}")
     print("------------------------")
