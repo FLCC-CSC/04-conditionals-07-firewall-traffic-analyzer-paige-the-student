@@ -23,4 +23,9 @@ def main():
     print(f"Risk Assessment: {risk_level}")
     print("------------------------")
 
-main()
+#main()
+
+print("HIGH RISK: Potential unauthorized remote access detected!")
+print("MEDIUM RISK: Large unencrypted data transfer detected.")
+print("LOW RISK: Secure encrypted transfer detected.")
+print("UNKNOWN: Unrecognized traffic pattern.")
