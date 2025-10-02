@@ -25,7 +25,7 @@ def main():
 
 #main()
 
-print("HIGH RISK: Potential unauthorized remote access detected!")
-print("MEDIUM RISK: Large unencrypted data transfer detected.")
-print("LOW RISK: Secure encrypted transfer detected.")
-print("UNKNOWN: Unrecognized traffic pattern.")
+print("Risk Assessment: HIGH RISK: Potential unauthorized remote access detected!")
+print("Risk Assessment: MEDIUM RISK: Large unencrypted data transfer detected.")
+print("Risk Assessment: LOW RISK: Secure encrypted transfer detected.")
+print("Risk Assessment: UNKNOWN: Unrecognized traffic pattern.")
