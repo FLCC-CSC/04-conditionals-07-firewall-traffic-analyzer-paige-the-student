@@ -24,7 +24,11 @@ def main():
     print("------------------------")
 
 #main()
-
+print("=== Network Traffic Security Analyzer ===")
+port = int(input("Enter the port number (e.g., 80, 22, 443, 3389): "))
+transfer_size = int(input("Enter the data transfer size in megabytes (MB): "))
+print("FIREWALL LOG:")
+print(f"Port: {port}, Transfer Size: {transfer_size} MB")
 print("Risk Assessment: HIGH RISK: Potential unauthorized remote access detected!")
 print("Risk Assessment: MEDIUM RISK: Large unencrypted data transfer detected.")
 print("Risk Assessment: LOW RISK: Secure encrypted transfer detected.")
